@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CoveredTest" project="CountWordClumps" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="sqa.test.CoveredTest" time="0.024" displayname="CoveredTest" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]">
+    <testsuite name="testWithMethodSource(sqa.test.CoveredTest)" time="0.024" displayname="testWithMethodSource(int[], int)" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]">
+      <testcase name="testWithMethodSource" classname="sqa.test.CoveredTest" time="0.024" dynamicTest="true" displayname="[1] numsArraynull =&gt; 0" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]/[test-template-invocation:#1]"/>
+      <testcase name="testWithMethodSource" classname="sqa.test.CoveredTest" time="0.0" dynamicTest="true" displayname="[2] numsArray[] =&gt; 0" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]/[test-template-invocation:#2]"/>
+      <testcase name="testWithMethodSource" classname="sqa.test.CoveredTest" time="0.001" dynamicTest="true" displayname="[3] numsArray[1] =&gt; 0" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]/[test-template-invocation:#3]"/>
+      <testcase name="testWithMethodSource" classname="sqa.test.CoveredTest" time="0.0" dynamicTest="true" displayname="[4] numsArray[1, 2] =&gt; 0" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]/[test-template-invocation:#4]"/>
+      <testcase name="testWithMethodSource" classname="sqa.test.CoveredTest" time="0.001" dynamicTest="true" displayname="[5] numsArray[1, 1, 2] =&gt; 1" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]/[test-template-invocation:#5]"/>
+      <testcase name="testWithMethodSource" classname="sqa.test.CoveredTest" time="0.0" dynamicTest="true" displayname="[6] numsArray[1, 1, 2, 3, 3, 4] =&gt; 2" parameters="[I,int" uniqueid="[engine:junit-jupiter]/[class:sqa.test.CoveredTest]/[test-template:testWithMethodSource(%5BI, int)]/[test-template-invocation:#6]"/>
+    </testsuite>
+  </testsuite>
+</testrun>
