@@ -20,6 +20,24 @@ class BottomUpIntegrationTest {
 		assertEquals(104.0,result,0.01);
 	}
 	@Test
+	void TemperatureConverterTest_invalid1() {
+		TemperatureConverter test = new TemperatureConverter();
+		double result = test.convert(100, "invalid_input","fahrenheit");
+		assertEquals(0.0,result);
+	}
+	@Test
+	void TemperatureConverterTest_invalid2() {
+		TemperatureConverter test = new TemperatureConverter();
+		double result = test.convert(100, "celsiusfahrenheit","invalid_input");
+		assertEquals(0.0,result);
+	}
+	@Test
+	void TemperatureConverterTest_invalid3() {
+		TemperatureConverter test = new TemperatureConverter();
+		double result = test.convert(100, "invalid_input","invalid_input");
+		assertEquals(0.0,result);
+	}
+	@Test
 	void MassConverterTest_cup() {
 		MassConverter test = new MassConverter();
 		double result = test.convert(2, "cup","gram");
@@ -60,6 +78,24 @@ class BottomUpIntegrationTest {
 		MassConverter test = new MassConverter();
 		double result = test.convert(4, "kilogram","pound");
 		assertEquals(8.82,result,0.01);
+	}
+	@Test
+	void MassConverterTest_invalid1() {
+		MassConverter test = new MassConverter();
+		double result = test.convert(10, "invalid_input","gram");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void MassConverterTest_invalid2() {
+		MassConverter test = new MassConverter();
+		double result = test.convert(10, "cup","invalid_input");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void MassConverterTest_invalid3() {
+		MassConverter test = new MassConverter();
+		double result = test.convert(10, "invalid_input","invalid_input");
+		assertEquals(10.0,result);
 	}
 	@Test
 	void LiquidVolumeConverterTest_cup_ml() {
@@ -128,6 +164,24 @@ class BottomUpIntegrationTest {
 		assertEquals(2.64,result,0.01);
 	}
 	@Test
+	void LiquidVolumeConverterTest_invalid1() {
+		LiquidVolumeConverter test = new LiquidVolumeConverter();
+		double result = test.convert(10, "invalid_input","ml");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void LiquidVolumeConverterTest_invalid2() {
+		LiquidVolumeConverter test = new LiquidVolumeConverter();
+		double result = test.convert(10, "cup","invalid_input");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void LiquidVolumeConverterTest_invalid3() {
+		LiquidVolumeConverter test = new LiquidVolumeConverter();
+		double result = test.convert(10, "invalid_input","invalid_input");
+		assertEquals(10.0,result);
+	}
+	@Test
 	void CookingConversionCalculator_temperature() {
 		CookingConversionCalculator test = new CookingConversionCalculator();
 		double result = test.convert(120,"temperature", "fahrenheit","celsius");
@@ -144,6 +198,12 @@ class BottomUpIntegrationTest {
 		CookingConversionCalculator test = new CookingConversionCalculator();
 		double result = test.convert(2,"liquid","cup","ml");
 		assertEquals(500.0,result,0.01);
+	}
+	@Test
+	void CookingConversionCalculator_invalid() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10,"invalid","","");
+		assertEquals(0.0,result);
 	}
 
 }

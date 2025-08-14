@@ -26,6 +26,12 @@ class TopDownIntegrationTest {
 		assertEquals(100.0,result,0.01);
 	}
 	@Test
+	void CookingConversion_Invalid() {
+		CookingConversionCalculatorStud test = new CookingConversionCalculatorStud();
+		double result = test.convert(100, "invalid_input", "fromunit", "tounit");
+		assertEquals(0.0,result);
+	}
+	@Test
 	void TemperatureConverterTest_fahrenheit() {
 		CookingConversionCalculator test = new CookingConversionCalculator();
 		double result = test.convert(120, "temperature", "fahrenheit","celsius");
@@ -36,6 +42,24 @@ class TopDownIntegrationTest {
 		CookingConversionCalculator test = new CookingConversionCalculator();
 		double result = test.convert(40, "temperature", "celsiusfahrenheit","fahrenheit");
 		assertEquals(104.0,result,0.01);
+	}
+	@Test
+	void TemperatureConverterTest_invalid1() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(40, "temperature", "invalid_input","fahrenheit");
+		assertEquals(0.0,result);
+	}
+	@Test
+	void TemperatureConverterTest_invalid2() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(40, "temperature", "celsiusfahrenheit","invalid_input");
+		assertEquals(0.0,result);
+	}
+	@Test
+	void TemperatureConverterTest_invalid3() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(40, "temperature", "invalid_input","invalid_input");
+		assertEquals(0.0,result);
 	}
 	@Test
 	void MassConverterTest_cup() {
@@ -78,6 +102,24 @@ class TopDownIntegrationTest {
 		CookingConversionCalculator test = new CookingConversionCalculator();
 		double result = test.convert(4, "mass", "kilogram","pound");
 		assertEquals(8.82,result,0.01);
+	}
+	@Test
+	void MassConverterTest_invalid1() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10, "mass", "invalid_input","pound");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void MassConverterTest_invalid2() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10, "mass", "cup","invalid_input");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void MassConverterTest_invlid3() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10, "mass", "invalid_input","invalid_input");
+		assertEquals(10.0,result);
 	}
 	@Test
 	void LiquidVolumeConverterTest_cup_ml() {
@@ -144,6 +186,24 @@ class TopDownIntegrationTest {
 		CookingConversionCalculator test = new CookingConversionCalculator();
 		double result = test.convert(10, "liquid","liter","gallon");
 		assertEquals(2.64,result,0.01);
+	}
+	@Test
+	void LiquidVolumeConverterTest_invalid1() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10, "liquid","invalid_input","ml");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void LiquidVolumeConverterTest_invalid2() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10, "liquid","cup","invalid_input");
+		assertEquals(10.0,result);
+	}
+	@Test
+	void LiquidVolumeConverterTest_invalid3() {
+		CookingConversionCalculator test = new CookingConversionCalculator();
+		double result = test.convert(10, "liquid","invalid_input","invalid_input");
+		assertEquals(10.0,result);
 	}
 }
 
