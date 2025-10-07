@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<CompilationUnit BeginColumn='1' BeginLine='1' Compact='false' EndColumn='3' EndLine='47' Image='' PackageName='main'>
+    <PackageDeclaration BeginColumn='9' BeginLine='1' EndColumn='13' EndLine='1' Image='' Name='main'>
+        <ModifierList BeginColumn='1' BeginLine='1' EffectiveModifiers='[]' EndColumn='1' EndLine='1' ExplicitModifiers='[]' Image='' />
+    </PackageDeclaration>
+    <ClassDeclaration Abstract='false' Annotation='false' Anonymous='false' BeginColumn='8' BeginLine='3' BinaryName='main.Whiteboard' CanonicalName='main.Whiteboard' EffectiveVisibility='public' EndColumn='13' EndLine='3' Enum='false' Final='false' Image='' Interface='false' Local='false' Nested='false' PackageName='main' Record='false' RegularClass='true' RegularInterface='false' SimpleName='Whiteboard' Static='false' TopLevel='true' UnnamedToplevelClass='false' Visibility='public'>
+        <ModifierList BeginColumn='1' BeginLine='3' EffectiveModifiers='[public]' EndColumn='7' EndLine='3' ExplicitModifiers='[public]' Image='' />
+        <ClassBody BeginColumn='25' BeginLine='3' Empty='false' EndColumn='2' EndLine='47' Image='' Size='1'>
+            <MethodDeclaration Abstract='false' Arity='1' BeginColumn='20' BeginLine='5' EffectiveVisibility='public' EndColumn='24' EndLine='5' Final='false' Image='' MainMethod='true' Name='main' Overridden='false' Static='true' Varargs='false' Visibility='public' Void='true'>
+                <ModifierList BeginColumn='1' BeginLine='5' EffectiveModifiers='[public, static]' EndColumn='14' EndLine='5' ExplicitModifiers='[public, static]' Image='' />
+                <VoidType BeginColumn='15' BeginLine='5' EndColumn='19' EndLine='5' Image='' />
+                <FormalParameters BeginColumn='24' BeginLine='5' Empty='false' EndColumn='39' EndLine='5' Image='' Size='1'>
+                    <FormalParameter BeginColumn='25' BeginLine='5' EffectiveVisibility='local' EndColumn='38' EndLine='5' Final='false' Image='' Varargs='false' Visibility='local'>
+                        <ModifierList BeginColumn='25' BeginLine='5' EffectiveModifiers='[]' EndColumn='25' EndLine='5' ExplicitModifiers='[]' Image='' />
+                        <ArrayType ArrayDepth='1' BeginColumn='25' BeginLine='5' EndColumn='33' EndLine='5' Image=''>
+                            <ClassType BeginColumn='25' BeginLine='5' EndColumn='31' EndLine='5' FullyQualified='false' Image='' PackageQualifier='' SimpleName='String' />
+                            <ArrayDimensions BeginColumn='31' BeginLine='5' Empty='false' EndColumn='33' EndLine='5' Image='' Size='1'>
+                                <ArrayTypeDim BeginColumn='31' BeginLine='5' EndColumn='33' EndLine='5' Image='' Varargs='false' />
+                            </ArrayDimensions>
+                        </ArrayType>
+                        <VariableId ArrayType='true' BeginColumn='34' BeginLine='5' EffectiveVisibility='local' EndColumn='38' EndLine='5' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='true' Image='' LambdaParameter='false' LocalVariable='false' Name='args' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                    </FormalParameter>
+                </FormalParameters>
+                <Block BeginColumn='40' BeginLine='5' Empty='false' EndColumn='6' EndLine='45' Image='' Size='24' containsComment='false'>
+                    <LocalVariableDeclaration BeginColumn='27' BeginLine='7' EffectiveVisibility='local' EndColumn='35' EndLine='7' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='7' EffectiveModifiers='[]' EndColumn='9' EndLine='7' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='7' EndColumn='26' EndLine='7' FullyQualified='false' Image='' PackageQualifier='' SimpleName='WhiteboardManager' />
+                        <VariableDeclarator BeginColumn='27' BeginLine='7' EndColumn='69' EndLine='7' Image='' Initializer='true' Name='managerA'>
+                            <VariableId ArrayType='false' BeginColumn='27' BeginLine='7' EffectiveVisibility='local' EndColumn='35' EndLine='7' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='managerA' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <MethodCall BeginColumn='38' BeginLine='7' CompileTimeConstant='false' EndColumn='69' EndLine='7' Expression='true' Image='getInstance' MethodName='getInstance' ParenthesisDepth='0' Parenthesized='false'>
+                                <AmbiguousName BeginColumn='38' BeginLine='7' CompileTimeConstant='false' EndColumn='55' EndLine='7' Expression='true' Image='WhiteboardManager' Name='WhiteboardManager' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='67' BeginLine='7' Empty='true' EndColumn='69' EndLine='7' Image='' Size='0' />
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <LocalVariableDeclaration BeginColumn='27' BeginLine='8' EffectiveVisibility='local' EndColumn='35' EndLine='8' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='8' EffectiveModifiers='[]' EndColumn='9' EndLine='8' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='8' EndColumn='26' EndLine='8' FullyQualified='false' Image='' PackageQualifier='' SimpleName='WhiteboardManager' />
+                        <VariableDeclarator BeginColumn='27' BeginLine='8' EndColumn='69' EndLine='8' Image='' Initializer='true' Name='managerB'>
+                            <VariableId ArrayType='false' BeginColumn='27' BeginLine='8' EffectiveVisibility='local' EndColumn='35' EndLine='8' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='managerB' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <MethodCall BeginColumn='38' BeginLine='8' CompileTimeConstant='false' EndColumn='69' EndLine='8' Expression='true' Image='getInstance' MethodName='getInstance' ParenthesisDepth='0' Parenthesized='false'>
+                                <AmbiguousName BeginColumn='38' BeginLine='8' CompileTimeConstant='false' EndColumn='55' EndLine='8' Expression='true' Image='WhiteboardManager' Name='WhiteboardManager' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='67' BeginLine='8' Empty='true' EndColumn='69' EndLine='8' Image='' Size='0' />
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='10' EndColumn='60' EndLine='10' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='10' CompileTimeConstant='false' EndColumn='59' EndLine='10' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='10' CompileTimeConstant='false' EndColumn='19' EndLine='10' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='10' CompileTimeConstant='false' EndColumn='15' EndLine='10' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='10' EndColumn='15' EndLine='10' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='10' Empty='false' EndColumn='59' EndLine='10' Image='' Size='1'>
+                                <StringLiteral BeginColumn='28' BeginLine='10' CompileTimeConstant='true' ConstValue='--- Manager Verification ---' Empty='false' EndColumn='58' EndLine='10' Expression='true' Image='"--- Manager Verification ---"' Length='28' LiteralText='"--- Manager Verification ---"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='11' EndColumn='84' EndLine='11' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='11' CompileTimeConstant='false' EndColumn='83' EndLine='11' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='11' CompileTimeConstant='false' EndColumn='19' EndLine='11' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='11' CompileTimeConstant='false' EndColumn='15' EndLine='11' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='11' EndColumn='15' EndLine='11' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='11' Empty='false' EndColumn='83' EndLine='11' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='11' CompileTimeConstant='false' EndColumn='82' EndLine='11' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='11' CompileTimeConstant='true' ConstValue='Manager A Hash: ' Empty='false' EndColumn='46' EndLine='11' Expression='true' Image='"Manager A Hash: "' Length='16' LiteralText='"Manager A Hash: "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <MethodCall BeginColumn='49' BeginLine='11' CompileTimeConstant='false' EndColumn='82' EndLine='11' Expression='true' Image='identityHashCode' MethodName='identityHashCode' ParenthesisDepth='0' Parenthesized='false'>
+                                        <TypeExpression BeginColumn='49' BeginLine='11' CompileTimeConstant='false' EndColumn='55' EndLine='11' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                            <ClassType BeginColumn='49' BeginLine='11' EndColumn='55' EndLine='11' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                        </TypeExpression>
+                                        <ArgumentList BeginColumn='72' BeginLine='11' Empty='false' EndColumn='82' EndLine='11' Image='' Size='1'>
+                                            <VariableAccess AccessType='READ' BeginColumn='73' BeginLine='11' CompileTimeConstant='false' EndColumn='81' EndLine='11' Expression='true' Image='managerA' Name='managerA' ParenthesisDepth='0' Parenthesized='false' />
+                                        </ArgumentList>
+                                    </MethodCall>
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='12' EndColumn='84' EndLine='12' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='12' CompileTimeConstant='false' EndColumn='83' EndLine='12' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='12' CompileTimeConstant='false' EndColumn='19' EndLine='12' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='12' CompileTimeConstant='false' EndColumn='15' EndLine='12' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='12' EndColumn='15' EndLine='12' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='12' Empty='false' EndColumn='83' EndLine='12' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='12' CompileTimeConstant='false' EndColumn='82' EndLine='12' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='12' CompileTimeConstant='true' ConstValue='Manager B Hash: ' Empty='false' EndColumn='46' EndLine='12' Expression='true' Image='"Manager B Hash: "' Length='16' LiteralText='"Manager B Hash: "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <MethodCall BeginColumn='49' BeginLine='12' CompileTimeConstant='false' EndColumn='82' EndLine='12' Expression='true' Image='identityHashCode' MethodName='identityHashCode' ParenthesisDepth='0' Parenthesized='false'>
+                                        <TypeExpression BeginColumn='49' BeginLine='12' CompileTimeConstant='false' EndColumn='55' EndLine='12' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                            <ClassType BeginColumn='49' BeginLine='12' EndColumn='55' EndLine='12' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                        </TypeExpression>
+                                        <ArgumentList BeginColumn='72' BeginLine='12' Empty='false' EndColumn='82' EndLine='12' Image='' Size='1'>
+                                            <VariableAccess AccessType='READ' BeginColumn='73' BeginLine='12' CompileTimeConstant='false' EndColumn='81' EndLine='12' Expression='true' Image='managerB' Name='managerB' ParenthesisDepth='0' Parenthesized='false' />
+                                        </ArgumentList>
+                                    </MethodCall>
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='14' EndColumn='62' EndLine='14' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='14' CompileTimeConstant='false' EndColumn='61' EndLine='14' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='14' CompileTimeConstant='false' EndColumn='19' EndLine='14' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='14' CompileTimeConstant='false' EndColumn='15' EndLine='14' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='14' EndColumn='15' EndLine='14' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='14' Empty='false' EndColumn='61' EndLine='14' Image='' Size='1'>
+                                <StringLiteral BeginColumn='28' BeginLine='14' CompileTimeConstant='true' ConstValue='----------------------------
+' Empty='false' EndColumn='60' EndLine='14' Expression='true' Image='"----------------------------\n"' Length='29' LiteralText='"----------------------------\n"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration BeginColumn='16' BeginLine='17' EffectiveVisibility='local' EndColumn='23' EndLine='17' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='17' EffectiveModifiers='[]' EndColumn='9' EndLine='17' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='17' EndColumn='15' EndLine='17' FullyQualified='false' Image='' PackageQualifier='' SimpleName='String' />
+                        <VariableDeclarator BeginColumn='16' BeginLine='17' EndColumn='45' EndLine='17' Image='' Initializer='true' Name='userId1'>
+                            <VariableId ArrayType='false' BeginColumn='16' BeginLine='17' EffectiveVisibility='local' EndColumn='23' EndLine='17' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='userId1' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <StringLiteral BeginColumn='26' BeginLine='17' CompileTimeConstant='true' ConstValue='alice@example.com' Empty='false' EndColumn='45' EndLine='17' Expression='true' Image='"alice@example.com"' Length='17' LiteralText='"alice@example.com"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <LocalVariableDeclaration BeginColumn='16' BeginLine='18' EffectiveVisibility='local' EndColumn='23' EndLine='18' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='18' EffectiveModifiers='[]' EndColumn='9' EndLine='18' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='18' EndColumn='15' EndLine='18' FullyQualified='false' Image='' PackageQualifier='' SimpleName='String' />
+                        <VariableDeclarator BeginColumn='16' BeginLine='18' EndColumn='43' EndLine='18' Image='' Initializer='true' Name='userId2'>
+                            <VariableId ArrayType='false' BeginColumn='16' BeginLine='18' EffectiveVisibility='local' EndColumn='23' EndLine='18' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='userId2' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <StringLiteral BeginColumn='26' BeginLine='18' CompileTimeConstant='true' ConstValue='bob@example.com' Empty='false' EndColumn='43' EndLine='18' Expression='true' Image='"bob@example.com"' Length='15' LiteralText='"bob@example.com"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='20' EndColumn='61' EndLine='20' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='20' CompileTimeConstant='false' EndColumn='60' EndLine='20' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='20' CompileTimeConstant='false' EndColumn='19' EndLine='20' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='20' CompileTimeConstant='false' EndColumn='15' EndLine='20' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='20' EndColumn='15' EndLine='20' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='20' Empty='false' EndColumn='60' EndLine='20' Image='' Size='1'>
+                                <StringLiteral BeginColumn='28' BeginLine='20' CompileTimeConstant='true' ConstValue='--- Whiteboard Generation ---' Empty='false' EndColumn='59' EndLine='20' Expression='true' Image='"--- Whiteboard Generation ---"' Length='29' LiteralText='"--- Whiteboard Generation ---"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration BeginColumn='24' BeginLine='22' EffectiveVisibility='local' EndColumn='32' EndLine='22' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='22' EffectiveModifiers='[]' EndColumn='9' EndLine='22' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='22' EndColumn='23' EndLine='22' FullyQualified='false' Image='' PackageQualifier='' SimpleName='UserWhiteboard' />
+                        <VariableDeclarator BeginColumn='24' BeginLine='22' EndColumn='73' EndLine='22' Image='' Initializer='true' Name='aliceWb1'>
+                            <VariableId ArrayType='false' BeginColumn='24' BeginLine='22' EffectiveVisibility='local' EndColumn='32' EndLine='22' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='aliceWb1' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <MethodCall BeginColumn='35' BeginLine='22' CompileTimeConstant='false' EndColumn='73' EndLine='22' Expression='true' Image='getWhiteboardForUser' MethodName='getWhiteboardForUser' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='35' BeginLine='22' CompileTimeConstant='false' EndColumn='43' EndLine='22' Expression='true' Image='managerA' Name='managerA' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='64' BeginLine='22' Empty='false' EndColumn='73' EndLine='22' Image='' Size='1'>
+                                    <VariableAccess AccessType='READ' BeginColumn='65' BeginLine='22' CompileTimeConstant='false' EndColumn='72' EndLine='22' Expression='true' Image='userId1' Name='userId1' ParenthesisDepth='0' Parenthesized='false' />
+                                </ArgumentList>
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='23' EndColumn='63' EndLine='23' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='23' CompileTimeConstant='false' EndColumn='62' EndLine='23' Expression='true' Image='addContent' MethodName='addContent' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='9' BeginLine='23' CompileTimeConstant='false' EndColumn='17' EndLine='23' Expression='true' Image='aliceWb1' Name='aliceWb1' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='28' BeginLine='23' Empty='false' EndColumn='62' EndLine='23' Image='' Size='1'>
+                                <StringLiteral BeginColumn='29' BeginLine='23' CompileTimeConstant='true' ConstValue='Alice starts drawing a square.' Empty='false' EndColumn='61' EndLine='23' Expression='true' Image='"Alice starts drawing a square."' Length='30' LiteralText='"Alice starts drawing a square."' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration BeginColumn='24' BeginLine='25' EffectiveVisibility='local' EndColumn='29' EndLine='25' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='25' EffectiveModifiers='[]' EndColumn='9' EndLine='25' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='25' EndColumn='23' EndLine='25' FullyQualified='false' Image='' PackageQualifier='' SimpleName='UserWhiteboard' />
+                        <VariableDeclarator BeginColumn='24' BeginLine='25' EndColumn='70' EndLine='25' Image='' Initializer='true' Name='bobWb'>
+                            <VariableId ArrayType='false' BeginColumn='24' BeginLine='25' EffectiveVisibility='local' EndColumn='29' EndLine='25' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='bobWb' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <MethodCall BeginColumn='32' BeginLine='25' CompileTimeConstant='false' EndColumn='70' EndLine='25' Expression='true' Image='getWhiteboardForUser' MethodName='getWhiteboardForUser' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='32' BeginLine='25' CompileTimeConstant='false' EndColumn='40' EndLine='25' Expression='true' Image='managerA' Name='managerA' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='61' BeginLine='25' Empty='false' EndColumn='70' EndLine='25' Image='' Size='1'>
+                                    <VariableAccess AccessType='READ' BeginColumn='62' BeginLine='25' CompileTimeConstant='false' EndColumn='69' EndLine='25' Expression='true' Image='userId2' Name='userId2' ParenthesisDepth='0' Parenthesized='false' />
+                                </ArgumentList>
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='26' EndColumn='50' EndLine='26' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='26' CompileTimeConstant='false' EndColumn='49' EndLine='26' Expression='true' Image='addContent' MethodName='addContent' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='9' BeginLine='26' CompileTimeConstant='false' EndColumn='14' EndLine='26' Expression='true' Image='bobWb' Name='bobWb' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='25' BeginLine='26' Empty='false' EndColumn='49' EndLine='26' Image='' Size='1'>
+                                <StringLiteral BeginColumn='26' BeginLine='26' CompileTimeConstant='true' ConstValue='Bob writes his name.' Empty='false' EndColumn='48' EndLine='26' Expression='true' Image='"Bob writes his name."' Length='20' LiteralText='"Bob writes his name."' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <LocalVariableDeclaration BeginColumn='24' BeginLine='28' EffectiveVisibility='local' EndColumn='32' EndLine='28' Final='false' Image='' TypeInferred='false' Visibility='local'>
+                        <ModifierList BeginColumn='9' BeginLine='28' EffectiveModifiers='[]' EndColumn='9' EndLine='28' ExplicitModifiers='[]' Image='' />
+                        <ClassType BeginColumn='9' BeginLine='28' EndColumn='23' EndLine='28' FullyQualified='false' Image='' PackageQualifier='' SimpleName='UserWhiteboard' />
+                        <VariableDeclarator BeginColumn='24' BeginLine='28' EndColumn='73' EndLine='28' Image='' Initializer='true' Name='aliceWb2'>
+                            <VariableId ArrayType='false' BeginColumn='24' BeginLine='28' EffectiveVisibility='local' EndColumn='32' EndLine='28' EnumConstant='false' ExceptionBlockParameter='false' Field='false' Final='false' ForLoopVariable='false' ForeachVariable='false' FormalParameter='false' Image='' LambdaParameter='false' LocalVariable='true' Name='aliceWb2' PatternBinding='false' RecordComponent='false' ResourceDeclaration='false' Static='false' TypeInferred='false' Unnamed='false' Visibility='local' />
+                            <MethodCall BeginColumn='35' BeginLine='28' CompileTimeConstant='false' EndColumn='73' EndLine='28' Expression='true' Image='getWhiteboardForUser' MethodName='getWhiteboardForUser' ParenthesisDepth='0' Parenthesized='false'>
+                                <VariableAccess AccessType='READ' BeginColumn='35' BeginLine='28' CompileTimeConstant='false' EndColumn='43' EndLine='28' Expression='true' Image='managerB' Name='managerB' ParenthesisDepth='0' Parenthesized='false' />
+                                <ArgumentList BeginColumn='64' BeginLine='28' Empty='false' EndColumn='73' EndLine='28' Image='' Size='1'>
+                                    <VariableAccess AccessType='READ' BeginColumn='65' BeginLine='28' CompileTimeConstant='false' EndColumn='72' EndLine='28' Expression='true' Image='userId1' Name='userId1' ParenthesisDepth='0' Parenthesized='false' />
+                                </ArgumentList>
+                            </MethodCall>
+                        </VariableDeclarator>
+                    </LocalVariableDeclaration>
+                    <ExpressionStatement BeginColumn='9' BeginLine='29' EndColumn='53' EndLine='29' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='29' CompileTimeConstant='false' EndColumn='52' EndLine='29' Expression='true' Image='addContent' MethodName='addContent' ParenthesisDepth='0' Parenthesized='false'>
+                            <VariableAccess AccessType='READ' BeginColumn='9' BeginLine='29' CompileTimeConstant='false' EndColumn='17' EndLine='29' Expression='true' Image='aliceWb2' Name='aliceWb2' ParenthesisDepth='0' Parenthesized='false' />
+                            <ArgumentList BeginColumn='28' BeginLine='29' Empty='false' EndColumn='52' EndLine='29' Image='' Size='1'>
+                                <StringLiteral BeginColumn='29' BeginLine='29' CompileTimeConstant='true' ConstValue='Alice adds a circle.' Empty='false' EndColumn='51' EndLine='29' Expression='true' Image='"Alice adds a circle."' Length='20' LiteralText='"Alice adds a circle."' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='32' EndColumn='63' EndLine='32' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='32' CompileTimeConstant='false' EndColumn='62' EndLine='32' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='32' CompileTimeConstant='false' EndColumn='19' EndLine='32' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='32' CompileTimeConstant='false' EndColumn='15' EndLine='32' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='32' EndColumn='15' EndLine='32' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='32' Empty='false' EndColumn='62' EndLine='32' Image='' Size='1'>
+                                <StringLiteral BeginColumn='28' BeginLine='32' CompileTimeConstant='true' ConstValue='
+--- Per-User Verification ---' Empty='false' EndColumn='61' EndLine='32' Expression='true' Image='"\n--- Per-User Verification ---"' Length='30' LiteralText='"\n--- Per-User Verification ---"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='34' EndColumn='83' EndLine='34' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='34' CompileTimeConstant='false' EndColumn='82' EndLine='34' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='34' CompileTimeConstant='false' EndColumn='19' EndLine='34' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='34' CompileTimeConstant='false' EndColumn='15' EndLine='34' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='34' EndColumn='15' EndLine='34' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='34' Empty='false' EndColumn='82' EndLine='34' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='34' CompileTimeConstant='false' EndColumn='81' EndLine='34' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='34' CompileTimeConstant='true' ConstValue='Alice Wb 1 == Alice Wb 2? ' Empty='false' EndColumn='56' EndLine='34' Expression='true' Image='"Alice Wb 1 == Alice Wb 2? "' Length='26' LiteralText='"Alice Wb 1 == Alice Wb 2? "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <InfixExpression BeginColumn='59' BeginLine='34' CompileTimeConstant='false' EndColumn='81' EndLine='34' Expression='true' Image='' Operator='==' ParenthesisDepth='1' Parenthesized='true'>
+                                        <VariableAccess AccessType='READ' BeginColumn='60' BeginLine='34' CompileTimeConstant='false' EndColumn='68' EndLine='34' Expression='true' Image='aliceWb1' Name='aliceWb1' ParenthesisDepth='0' Parenthesized='false' />
+                                        <VariableAccess AccessType='READ' BeginColumn='72' BeginLine='34' CompileTimeConstant='false' EndColumn='80' EndLine='34' Expression='true' Image='aliceWb2' Name='aliceWb2' ParenthesisDepth='0' Parenthesized='false' />
+                                    </InfixExpression>
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='35' EndColumn='68' EndLine='35' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='35' CompileTimeConstant='false' EndColumn='67' EndLine='35' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='35' CompileTimeConstant='false' EndColumn='19' EndLine='35' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='35' CompileTimeConstant='false' EndColumn='15' EndLine='35' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='35' EndColumn='15' EndLine='35' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='35' Empty='false' EndColumn='67' EndLine='35' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='35' CompileTimeConstant='false' EndColumn='66' EndLine='35' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='35' CompileTimeConstant='true' ConstValue='Alice Whiteboard object: ' Empty='false' EndColumn='55' EndLine='35' Expression='true' Image='"Alice Whiteboard object: "' Length='25' LiteralText='"Alice Whiteboard object: "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <VariableAccess AccessType='READ' BeginColumn='58' BeginLine='35' CompileTimeConstant='false' EndColumn='66' EndLine='35' Expression='true' Image='aliceWb1' Name='aliceWb1' ParenthesisDepth='0' Parenthesized='false' />
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='36' EndColumn='63' EndLine='36' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='36' CompileTimeConstant='false' EndColumn='62' EndLine='36' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='36' CompileTimeConstant='false' EndColumn='19' EndLine='36' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='36' CompileTimeConstant='false' EndColumn='15' EndLine='36' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='36' EndColumn='15' EndLine='36' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='36' Empty='false' EndColumn='62' EndLine='36' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='36' CompileTimeConstant='false' EndColumn='61' EndLine='36' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='36' CompileTimeConstant='true' ConstValue='Bob Whiteboard object: ' Empty='false' EndColumn='53' EndLine='36' Expression='true' Image='"Bob Whiteboard object: "' Length='23' LiteralText='"Bob Whiteboard object: "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <VariableAccess AccessType='READ' BeginColumn='56' BeginLine='36' CompileTimeConstant='false' EndColumn='61' EndLine='36' Expression='true' Image='bobWb' Name='bobWb' ParenthesisDepth='0' Parenthesized='false' />
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='37' EndColumn='99' EndLine='37' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='37' CompileTimeConstant='false' EndColumn='98' EndLine='37' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='37' CompileTimeConstant='false' EndColumn='19' EndLine='37' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='37' CompileTimeConstant='false' EndColumn='15' EndLine='37' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='37' EndColumn='15' EndLine='37' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='37' Empty='false' EndColumn='98' EndLine='37' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='37' CompileTimeConstant='false' EndColumn='97' EndLine='37' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='37' CompileTimeConstant='true' ConstValue='Are Alice&apos;s and Bob&apos;s whiteboards different? ' Empty='false' EndColumn='75' EndLine='37' Expression='true' Image='"Are Alice&apos;s and Bob&apos;s whiteboards different? "' Length='45' LiteralText='"Are Alice&apos;s and Bob&apos;s whiteboards different? "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <InfixExpression BeginColumn='78' BeginLine='37' CompileTimeConstant='false' EndColumn='97' EndLine='37' Expression='true' Image='' Operator='!=' ParenthesisDepth='1' Parenthesized='true'>
+                                        <VariableAccess AccessType='READ' BeginColumn='79' BeginLine='37' CompileTimeConstant='false' EndColumn='87' EndLine='37' Expression='true' Image='aliceWb1' Name='aliceWb1' ParenthesisDepth='0' Parenthesized='false' />
+                                        <VariableAccess AccessType='READ' BeginColumn='91' BeginLine='37' CompileTimeConstant='false' EndColumn='96' EndLine='37' Expression='true' Image='bobWb' Name='bobWb' ParenthesisDepth='0' Parenthesized='false' />
+                                    </InfixExpression>
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='40' EndColumn='65' EndLine='40' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='40' CompileTimeConstant='false' EndColumn='64' EndLine='40' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='40' CompileTimeConstant='false' EndColumn='19' EndLine='40' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='40' CompileTimeConstant='false' EndColumn='15' EndLine='40' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='40' EndColumn='15' EndLine='40' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='40' Empty='false' EndColumn='64' EndLine='40' Image='' Size='1'>
+                                <StringLiteral BeginColumn='28' BeginLine='40' CompileTimeConstant='true' ConstValue='
+--- Content Isolation Check ---' Empty='false' EndColumn='63' EndLine='40' Expression='true' Image='"\n--- Content Isolation Check ---"' Length='32' LiteralText='"\n--- Content Isolation Check ---"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='41' EndColumn='51' EndLine='41' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='41' CompileTimeConstant='false' EndColumn='50' EndLine='41' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='41' CompileTimeConstant='false' EndColumn='19' EndLine='41' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='41' CompileTimeConstant='false' EndColumn='15' EndLine='41' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='41' EndColumn='15' EndLine='41' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='41' Empty='false' EndColumn='50' EndLine='41' Image='' Size='1'>
+                                <MethodCall BeginColumn='28' BeginLine='41' CompileTimeConstant='false' EndColumn='49' EndLine='41' Expression='true' Image='getContent' MethodName='getContent' ParenthesisDepth='0' Parenthesized='false'>
+                                    <VariableAccess AccessType='READ' BeginColumn='28' BeginLine='41' CompileTimeConstant='false' EndColumn='36' EndLine='41' Expression='true' Image='aliceWb2' Name='aliceWb2' ParenthesisDepth='0' Parenthesized='false' />
+                                    <ArgumentList BeginColumn='47' BeginLine='41' Empty='true' EndColumn='49' EndLine='41' Image='' Size='0' />
+                                </MethodCall>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='42' EndColumn='55' EndLine='42' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='42' CompileTimeConstant='false' EndColumn='54' EndLine='42' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='42' CompileTimeConstant='false' EndColumn='19' EndLine='42' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='42' CompileTimeConstant='false' EndColumn='15' EndLine='42' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='42' EndColumn='15' EndLine='42' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='42' Empty='false' EndColumn='54' EndLine='42' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='42' CompileTimeConstant='false' EndColumn='53' EndLine='42' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='42' CompileTimeConstant='true' ConstValue='
+' Empty='false' EndColumn='32' EndLine='42' Expression='true' Image='"\n"' Length='1' LiteralText='"\n"' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <MethodCall BeginColumn='35' BeginLine='42' CompileTimeConstant='false' EndColumn='53' EndLine='42' Expression='true' Image='getContent' MethodName='getContent' ParenthesisDepth='0' Parenthesized='false'>
+                                        <VariableAccess AccessType='READ' BeginColumn='35' BeginLine='42' CompileTimeConstant='false' EndColumn='40' EndLine='42' Expression='true' Image='bobWb' Name='bobWb' ParenthesisDepth='0' Parenthesized='false' />
+                                        <ArgumentList BeginColumn='51' BeginLine='42' Empty='true' EndColumn='53' EndLine='42' Image='' Size='0' />
+                                    </MethodCall>
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                    <ExpressionStatement BeginColumn='9' BeginLine='44' EndColumn='105' EndLine='44' Image=''>
+                        <MethodCall BeginColumn='9' BeginLine='44' CompileTimeConstant='false' EndColumn='104' EndLine='44' Expression='true' Image='println' MethodName='println' ParenthesisDepth='0' Parenthesized='false'>
+                            <FieldAccess AccessType='READ' BeginColumn='9' BeginLine='44' CompileTimeConstant='false' EndColumn='19' EndLine='44' Expression='true' Image='out' Name='out' ParenthesisDepth='0' Parenthesized='false'>
+                                <TypeExpression BeginColumn='9' BeginLine='44' CompileTimeConstant='false' EndColumn='15' EndLine='44' Expression='true' Image='' ParenthesisDepth='0' Parenthesized='false'>
+                                    <ClassType BeginColumn='9' BeginLine='44' EndColumn='15' EndLine='44' FullyQualified='false' Image='' PackageQualifier='' SimpleName='System' />
+                                </TypeExpression>
+                            </FieldAccess>
+                            <ArgumentList BeginColumn='27' BeginLine='44' Empty='false' EndColumn='104' EndLine='44' Image='' Size='1'>
+                                <InfixExpression BeginColumn='28' BeginLine='44' CompileTimeConstant='false' EndColumn='103' EndLine='44' Expression='true' Image='' Operator='+' ParenthesisDepth='0' Parenthesized='false'>
+                                    <StringLiteral BeginColumn='28' BeginLine='44' CompileTimeConstant='true' ConstValue='
+Total unique whiteboards managed: ' Empty='false' EndColumn='66' EndLine='44' Expression='true' Image='"\nTotal unique whiteboards managed: "' Length='35' LiteralText='"\nTotal unique whiteboards managed: "' ParenthesisDepth='0' Parenthesized='false' TextBlock='false' />
+                                    <MethodCall BeginColumn='69' BeginLine='44' CompileTimeConstant='false' EndColumn='103' EndLine='44' Expression='true' Image='getTotalWhiteboardCount' MethodName='getTotalWhiteboardCount' ParenthesisDepth='0' Parenthesized='false'>
+                                        <VariableAccess AccessType='READ' BeginColumn='69' BeginLine='44' CompileTimeConstant='false' EndColumn='77' EndLine='44' Expression='true' Image='managerA' Name='managerA' ParenthesisDepth='0' Parenthesized='false' />
+                                        <ArgumentList BeginColumn='101' BeginLine='44' Empty='true' EndColumn='103' EndLine='44' Image='' Size='0' />
+                                    </MethodCall>
+                                </InfixExpression>
+                            </ArgumentList>
+                        </MethodCall>
+                    </ExpressionStatement>
+                </Block>
+            </MethodDeclaration>
+        </ClassBody>
+    </ClassDeclaration>
+</CompilationUnit>
